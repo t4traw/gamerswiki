@@ -22,8 +22,9 @@
 
 ## 環境や使う予定のプラグイン
 
-  - ruby: 2.5.1
-  - rails 5.2.0
+  - Ruby: 2.5.1
+  - Rails 5.2.0
+  - Bootstrap 4.1.1
   - [WYSIWYGエディタにはSummernoteを予定](https://summernote.org/)
   - 権限管理にはCanCanCan
   - ユーザー認証はSorcery

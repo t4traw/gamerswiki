@@ -79,3 +79,5 @@ group :development, :test do
 end
 
 gem 'sorcery'
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
