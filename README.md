@@ -1,24 +1,23 @@
-# README
+![logomakr_5q2wkv](https://user-images.githubusercontent.com/6788936/42360769-c81a43b2-8125-11e8-99da-b0d2d15ea2d2.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+スマホ(レスポンシブ)で見れる＆使えるwikiが全然ないし、サクっと建てられるWikiが無かったので自分用に作ってみた。
 
-Things you may want to cover:
+## 概要
 
-* Ruby version
+  - レスポンシブ
+  - キーワード・辞書機能
+  - WYSIWYGエディタ搭載
+  - 簡単なカテゴリー設定
+  - 基本的にページ書いたら良しなにしてくれる
+  - 編集履歴、差分。それをrevertする機能
+  - Heroku buttonでサクっとデプロイ
 
-* System dependencies
+## 環境や使う予定のプラグイン
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - ruby: 2.5.1
+  - rails 5.2.0
+  - [WYSIWYGエディタにはSummernoteを予定](https://summernote.org/)
+  - 権限管理にはCanCanCan
+  - ユーザー認証はSorcery
+  - ファイルアップロードはデフォルトはCloudinaryかな？
+  - 履歴管理にはPaperTrail
