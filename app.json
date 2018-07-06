@@ -1,0 +1,17 @@
+{
+  "addons": [
+    "heroku-postgresql",
+    "sendgrid"
+  ],
+  "env" : {
+    "SECRET_KEY"                : "__some_random_string__",
+    "DELIVERY_METHOD"           : "smtp",
+    "MAIL_SENDER"               : "lodge@example.com",
+    "SMTP_PORT"                 : "587",
+    "SMTP_AUTH_METHOD"          : "plain",
+    "SMTP_ENABLE_STARTTLS_AUTO" : "true",
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}

@@ -2,6 +2,14 @@
 
 スマホ(レスポンシブ)で見れる＆使えるwikiが全然ないし、サクっと建てられるWikiが無かったので自分用に作ってみた。
 
+## 使い方
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+※要Herokuアカウント
+
+上記のHerokuボタンをクリックすればすぐに利用開始できます(まだできません)。
+
 ## 概要
 
   - レスポンシブ
