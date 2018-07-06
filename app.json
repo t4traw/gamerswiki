@@ -1,4 +1,8 @@
 {
+  "name": "Gamerswiki",
+  "description": "レスポンシブルなゲーマー向けwiki",
+  "repository": "https://github.com/t4traw/gamerswiki",
+  "logo": "https://user-images.githubusercontent.com/6788936/42361745-e77d04a6-812a-11e8-8dbe-83d1dc1a2e6a.png",
   "addons": [
     "heroku-postgresql",
     "sendgrid"
